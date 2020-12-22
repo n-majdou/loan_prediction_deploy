@@ -1,0 +1,4 @@
+.vs/
+.idea/
+.git/
+/server/__pycache__/

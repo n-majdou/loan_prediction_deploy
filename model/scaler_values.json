@@ -1,0 +1,1 @@
+{"data_columns": ["applicant_income", "coapplicant_income", "loan_amount", "loan_amount_term", "combined_income", "loan_unit_per_income", "loan_per_term"], "min_value": [5.017279836814924, 0.0, 17.0, 12.0, 7.274479558773871, 0.30161363293620874, 0.07222222222222222], "max_value": [10.077608912764743, 9.302828391411333, 650.0, 480.0, 10.077860939480908, 8.271164450210833, 9.25]}
