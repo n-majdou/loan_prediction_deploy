@@ -25,6 +25,11 @@ def predict_loan():
     loan_amount = float(request.form['loan_amount'])
     loan_amount_term = float(request.form['loan_amount_term'])
     credit_history = int(request.form['credit_history']) -1
+    try:
+        credit_history in [0,1]
+    except:
+        credit_history = 1
+
     #print(applicant_income,coapplicant_income,loan_amount,loan_amount_term,credit_history)
 
     response = jsonify({

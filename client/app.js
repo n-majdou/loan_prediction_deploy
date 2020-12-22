@@ -2,7 +2,7 @@
     var uiCredit = document.getElementsByName("uiCredit");
     for(var i in uiCredit) {
       if(uiCredit[i].checked) {
-          return parseInt(i) - 1;
+          return parseInt(i) + 1;
       }
     }
     return -1; // Invalid Value
