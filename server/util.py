@@ -12,7 +12,7 @@ def get_loan_prediction(applicant_income,coapplicant_income,loan_amount,loan_amo
     combined_income = np.log(applicant_income + coapplicant_income +1)
     applicant_income = np.log(applicant_income +1)
     coapplicant_income = np.log(coapplicant_income + 1)
-    loan_unit_per_income = loan_amount*100/ (applicant_income+coapplicant_income)
+    loan_unit_per_income = loan_amount*100/ (applicant_income+coapplicant_income + 1)
     loan_per_term = loan_amount/loan_amount_term
 
     x = __scaler.transform(np.array([applicant_income,coapplicant_income,loan_amount,loan_amount_term,combined_income,loan_unit_per_income,

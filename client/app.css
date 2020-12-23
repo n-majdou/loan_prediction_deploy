@@ -23,6 +23,8 @@
 	text-align: center;
 	padding: 8px 16px;
 	margin-right: -1px;
+	margin:0 auto;
+    display:block;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
 	transition: all 0.1s ease-in-out;
@@ -33,7 +35,7 @@
 }
 
 .switch-field input:checked + label {
-	background-color: #a5dc86;
+	background-color: #87cefa;
 	box-shadow: none;
 }
 
@@ -50,22 +52,33 @@
 	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
 	font-weight: normal;
 	line-height: 1.625;
-	margin: 8px auto;
+	margin:0 auto;
+    display:block;
 	padding-left: 16px;
 	z-index: 2;
 }
+.form label{
+    font-size: 17px;
+    font-weight : 600;
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+
+	}
 
 h2 {
 	font-size: 18px;
 	margin-bottom: 8px;
 }
+
 .income{
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
   width: 76%;
   border: 0;
-  margin: 0 0 10px;
+  margin:0 auto;
+  display:block;
   padding: 10px;
   box-sizing: border-box;
   font-size: 15px;
@@ -79,7 +92,8 @@ h2 {
   background: #f2f2f2;
   width: 76%;
   border: 0;
-  margin: 0 0 10px;
+  margin:0 auto;
+  display:block;
   padding: 10px;
   box-sizing: border-box;
   font-size: 15px;
@@ -88,39 +102,38 @@ h2 {
 }
 
 .submit{
-  background: #a5dc86;
-  width: 76%;
+  background: #87cefa;
+  width: 20%;
   border: 0;
-  margin: 25px 0 10px;
+  margin:0 auto;
+  display:block;
   box-sizing: border-box;
   font-size: 15px;
-	height: 35px;
-	text-align: center;
-	border-radius: 5px;
+  font-weight: bold;
+  height: 35px;
+  text-align: center;
 }
 
 .result{
-		background: #dcd686;
-		width: 76%;
+		background: #ffc87c;
+		width: 20%;
 		border: 0;
-		margin: 25px 0 10px;
+		margin: auto;
 		box-sizing: border-box;
 		font-size: 15px;
+		font-weight: bold;
 		height: 35px;
 		text-align: center;
 }
 
+
 .img {
-  background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background: url('https://images.financialexpress.com/2020/02/HOME-LOAN-HIKE1200X800-1.jpg?w=1200&h=800&imflag=true&auto=format&fit=crop&w=1350&q=80');
 	background-repeat: no-repeat;
   background-size: auto;
   background-size:100% 100%;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(15px);
   position: fixed;
+  filter: blur(15px);
   width: 100%;
   height: 100%;
   top: 0;
