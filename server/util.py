@@ -34,9 +34,9 @@ def load_saved_artifacts():
 
     with open(os.getcwd()+"/server/artifacts/loan_terms.json", 'r') as f:
         __loan_terms = json.load(f)['loan_amount_term'] # interpreted as dictionary
-    with open(os.getcwd()+'/server/artifacts/loan_prediction_model2.pickle', 'rb') as f:
+    with open(os.getcwd()+'/server/artifacts/loan_prediction_model3.pickle', 'rb') as f:
         __model = pickle.load(f)
-    with open(os.getcwd() + '/server/artifacts/loan_prediction_scaler.pickle', 'rb') as f:
+    with open(os.getcwd() + '/server/artifacts/loan_prediction_scaler3.pickle', 'rb') as f:
         __scaler = pickle.load(f)
 
     print('loading saved artifacts...done')
